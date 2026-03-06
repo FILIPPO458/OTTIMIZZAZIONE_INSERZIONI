@@ -24,7 +24,7 @@ logging.basicConfig(
     handlers=[logging.FileHandler("update_pistons_ebay.log"), logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
-load_dotenv('/Users/filippocambareri/.bcc_secrets/ebay.env')
+load_dotenv("/Users/filippocambareri/.bcc_secrets/ebay.env")
 # Config eBay (senza token hardcoded)
 EBAY_CONFIG = {
     "appid": os.environ.get("EBAY_APP_ID"),
@@ -188,7 +188,7 @@ def update_piston(sku, iap_token, api, sku_map):
     if not specs:
         logger.warning(f"   ⚠️ Nessuna spec")
         return False
-
+    logger.info(f"   🔍 DEBUG Specs: {json.dumps(specs, indent=2, ensure_ascii=False)}")
     ebay_specifics = map_to_ebay_specifics(specs, product)
     if not ebay_specifics:
         logger.warning(f"   ⚠️ Mapping fallito")

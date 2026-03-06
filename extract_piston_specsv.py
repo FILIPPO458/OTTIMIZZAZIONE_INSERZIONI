@@ -380,24 +380,16 @@ def map_to_ebay_specifics(specs, product):
         {"Name": "Tipo", "Value": "Set di pistoni"},
     ]
 
-    if specs.get("diametro_pistone"):
-        nvl.append(
-            {"Name": "Diametro del pistone", "Value": f"{specs['diametro_pistone']} mm"}
-        )
-        nvl.append(
-            {
-                "Name": "Diametro del foro del cilindro",
-                "Value": f"{specs['diametro_cilindro']} mm",
-            }
-        )
+    # Diametro pistone - prova ENTRAMBI i nomi (italiano E inglese)
+    if specs.get("diametro_pistone") or specs.get("bore_diameter"):
+        diameter = specs.get("diametro_pistone") or specs.get("bore_diameter")
+        nvl.append({"Name": "Diametro del pistone", "Value": f"{diameter} mm"})
+        nvl.append({"Name": "Diametro del foro del cilindro", "Value": f"{diameter} mm"})
 
-    if specs.get("diametro_spinotto"):
-        nvl.append(
-            {
-                "Name": "Diametro dello spinotto",
-                "Value": f"{specs['diametro_spinotto']} mm",
-            }
-        )
+    # Diametro spinotto - prova ENTRAMBI i nomi (italiano E inglese)
+    if specs.get("diametro_spinotto") or specs.get("pin_diameter"):
+        pin_diam = specs.get("diametro_spinotto") or specs.get("pin_diameter")
+        nvl.append({"Name": "Diametro dello spinotto", "Value": f"{pin_diam} mm"})
 
     # 🆕 TRONCAMENTO MATERIALE A 65 CARATTERI
     if specs.get("materiale") or specs.get("info_integrativa"):
