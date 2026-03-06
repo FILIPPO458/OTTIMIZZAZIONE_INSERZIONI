@@ -1,0 +1,15 @@
+ID: 406650410654 | SKU: 127-17000KP | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650410659 | SKU: 127-17003K | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650410720 | SKU: 127-17084K | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650410737 | SKU: 127-17095 | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650411195 | SKU: 128-07033 | Errore: HTTPSConnectionPool(host='api.ebay.com', port=443): Read timed out. (read timeout=20)
+ID: 406650411379 | SKU: 128-16062 | Errore: HTTPSConnectionPool(host='api.ebay.com', port=443): Read timed out. (read timeout=20)
+PAGINA 38 - ERRORE: HTTPSConnectionPool(host='api.ebay.com', port=443): Max retries exceeded with url: /ws/api.dll (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10556fb30>: Failed to resolve 'api.ebay.com' ([Errno 8] nodename nor servname provided, or not known)"))
+ID: 406650411697 | SKU: 133-13160C | Errore: 'ResponseDataObject' object has no attribute 'Ack'
+ID: 406650411701 | SKU: 133-14030 | Errore: 'ResponseDataObject' object has no attribute 'Ack'
+ID: 406650415447 | SKU: 200-14090 | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650415458 | SKU: 200-16102 | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650441330 | SKU: 204-20101 | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650441706 | SKU: 206-13072 | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+ID: 406650441716 | SKU: 206-13087 | Errore: 'ReviseFixedPriceItem: Class: RequestError, Severity: Error, Code: 10007, Errore di sistema. Errore di sistema. Impossibile elaborare la richiesta. Riprova più tardi.'
+PAGINA 55 - ERRORE: HTTPSConnectionPool(host='api.ebay.com', port=443): Max retries exceeded with url: /ws/api.dll (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x109b87b90>: Failed to resolve 'api.ebay.com' ([Errno 8] nodename nor servname provided, or not known)"))
